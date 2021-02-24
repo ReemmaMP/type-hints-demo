@@ -17,9 +17,9 @@ def main() -> List:
     Reemma = Friend("Reemma")
     Reemma.add_nickname("Rem")
     Reemma.add_nickname("Rema")
-    return Reemma.nicknames
     Reemma.celebrate_birthday()
     return Reemma.age
 
 if __name__ == "__main__":
     res = main()
+    print(res)
