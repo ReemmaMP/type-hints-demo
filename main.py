@@ -2,6 +2,7 @@ from typing import List
 
 class Friend:
     nicknames = [] # type: List
+    age = 0 # type: int
 
     def __init__(self, name: str) -> None:
         self.name = name
