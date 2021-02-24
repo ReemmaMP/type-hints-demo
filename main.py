@@ -20,6 +20,10 @@ class Friend:
         self.previous_addresses.append(address)
         return [len(self.previous_addresses)]
 
+    def has_valid_address(self) -> bool:
+        if len(self.previous_addresses) == 0 or self.previous_addresses == None:
+            return False
+
 def main() -> Friend:
     Reemma = Friend("Reemma")
     Reemma.add_nickname("Rem")
